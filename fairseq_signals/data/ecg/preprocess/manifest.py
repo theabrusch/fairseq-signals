@@ -24,7 +24,7 @@ def get_parser():
     )
     parser.add_argument(
         "--pretrain_subset",
-        default="cpsc_2018, cpsc_2018_extra, georgia, ptb-xl, chapman_shaoxing, ningbo",
+        default="cpsc_2018, cpsc_2018_extra, georgia, ningbo",
         type=str,
         help="comma seperated list of data subsets to manifest for pre-training (e.g. cpsc_2018, cpsc_2018_extra, ...), "
              "each of which should be corresponded with the name of the sub-directory"
