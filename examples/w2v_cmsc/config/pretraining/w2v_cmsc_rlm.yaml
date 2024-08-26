@@ -21,8 +21,8 @@ task:
   normalize: false
   enable_padding: true
   enable_padding_leads: false
-  leads_to_load: null
-    # I, II, III, aVR, aVL, aVF, V1, V2, V3, V4, V5, V6
+  leads_to_load: [I, II, III, aVR, aVL, aVF]
+    # , , V1, V2, V3, V4, V5, V6
 
 dataset:
   num_workers: 6
